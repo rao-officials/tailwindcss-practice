@@ -476,14 +476,20 @@
 
 <app-navbar></app-navbar>
 
-<section class="bg-black">
+<section class="bg-skin-fill h-screen grid place-content-center">
   <div class="max-w-7xl mx-auto">
+    hello world
+  </div>
+</section>
+
+<section class="bg-black">
+  <div class="max-w-7xl mx-auto p-3 lg:p-0">
     <div class="grid cols-1 lg:grid-cols-2 gap-8 h-screen items-center justify-center">
 
       <div class="space-y-4">
         <div class="">
-          <h2 class="text-white text-7xl font-bold">
-            <span class="text-transparent  bg-clip-text bg-gradient-to-r from-[#c111b7] via-[#d01683] to-pink-400">
+          <h2 class="text-white text-4xl lg:text-7xl font-bold">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#c111b7] via-[#d01683] to-pink-400">
               Digital designer</span>
             crafting products
             that people love
@@ -534,11 +540,11 @@
 <app-projects></app-projects>
 
 
-<section id="" class="bg-black">
+<section id="" class="bg-black p-4 lg:p-0">
   <div class="max-w-7xl mx-auto py-28">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div class="space-y-6">
-        <h2 class="text-7xl font-bold text-white leading-[72px]">
+        <h2 class="text-4xl lg:text-7xl font-bold text-white leading-[42px] lg:leading-[72px]">
           My process that
           help my clients to <span
             class="text-transparent  bg-clip-text bg-gradient-to-r from-[#c111b7] via-[#d01683] to-pink-400">2x their
@@ -632,7 +638,7 @@
   </div>
 </section>
 
-<section id="" class="py-20">
+<section id="" class="py-20 p-4">
   <div class="max-w-7xl mx-auto">
     <div class="flex flex-col lg:flex-row space-x-4">
       <div class="w-full lg:w-2/5">
@@ -704,18 +710,18 @@
 
 
     <div class="flex flex-col lg:flex-row py-20 items-center">
-      <div class="-rotate-[17deg]">
+      <div class="-rotate-[17deg] w-9/12 lg:w-full">
         <img src="../assets/images/p4.jpg" alt="" srcset="">
       </div>
-      <div class="rotate-[17deg]">
+      <div class="rotate-[17deg] w-9/12 lg:w-full">
         <img src="../assets/images/p2.jpg" alt="" srcset="">
       </div>
 
-      <div class="-rotate-[17deg]">
+      <div class="-rotate-[17deg] w-9/12 lg:w-full">
         <img src="../assets/images/p3.jpg" alt="" srcset="">
       </div>
 
-      <div class="rotate-[17deg]">
+      <div class="rotate-[17deg] w-9/12 lg:w-full">
         <img src="../assets/images/p1.jpg" alt="" srcset="">
       </div>
     </div>
@@ -757,5 +763,6 @@
     </div>
   </div>
 </section>
+
 <app-footer></app-footer>
 <router-outlet></router-outlet>
